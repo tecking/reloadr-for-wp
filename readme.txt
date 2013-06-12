@@ -1,5 +1,5 @@
 === Reloadr for WP ===
-Contributors: MORIKAWA Tetsushi
+Contributors: tecking
 Tags: reload, refresh
 Requires at least: 3.1
 Tested up to: 3.5.1
