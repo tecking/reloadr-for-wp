@@ -1,6 +1,6 @@
 === Reloadr for WP ===
 Contributors: tecking
-Tags: reload, refresh
+Tags: reload, refresh, develop
 Requires at least: 3.1
 Tested up to: 3.5.1
 Stable tag: 0.2.1
