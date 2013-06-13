@@ -1,4 +1,4 @@
-=== Reloadr for WP ===
+=== Reloadr for WordPress ===
 Contributors: tecking
 Tags: reload, refresh, develop
 Requires at least: 3.1
