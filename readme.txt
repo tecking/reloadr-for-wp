@@ -3,7 +3,7 @@ Contributors: tecking
 Tags: reload, refresh, develop
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 0.2.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 
 Watching web project files for change, and refreshes their page automatically.
@@ -19,6 +19,10 @@ Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com
 3. On "Settings > Reloadr" page, set some options.
 
 == Changelog ==
+= 1.0.0 =
+* Internationalized.
+* Added CSS class to input[type=text] elements.
+
 = 0.2.1 =
 * Opening on WordPress Plugin Directory.
 * Fixed parsing bug (server-root path).
@@ -35,7 +39,8 @@ Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com
 == Frequently Asked Questions ==
 = Will you release l18n version? =
 
-Yes, in the near future. I have a plan containing "pot" file in the plugin archive.
+Now, this plugin includes "_e" function for internationalizing.
+Because it also has ".pot" file, you can build your own language files.
 
 == Upgrade Notice ==
 

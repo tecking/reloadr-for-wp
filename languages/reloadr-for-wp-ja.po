@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: reloadr-for-wp\n"
+"Language: ja\n"
+
+#: 
+msgid "Separate values with commas."
+msgstr "更新状態を監視したいファイルを、カンマ区切りで複数設定できます。"
+
+#: 
+msgid "Client-side assets"
+msgstr "クライアントサイドのファイル（通常は CSS ファイルや JavaScript ファイル）"
+
+#: 
+msgid "e.g. /your_css_directory/style.css (default: /style.css)"
+msgstr "例：/your_css_directory/style.css（デフォルト〔空白の場合〕は、使用中のテーマディレクトリ直下にある style.css）"
+
+#: 
+msgid "Server-side assets"
+msgstr "サーバサイドのファイル（通常は PHP ファイル）"
+
+#: 
+msgid "Wildcard is available."
+msgstr "ファイル名の指定にワイルドカードが使えます。"
+
+#: 
+msgid "e.g. /your_includes_directory/*.php (default: /*.php)"
+msgstr "例：/your_includes_directory/*.php（デフォルト〔空白の場合〕は、使用中のテーマディレクトリ直下にある .php の拡張子がつくファイル）"
+
