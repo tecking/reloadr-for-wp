@@ -3,7 +3,7 @@
 **Tags:** reload, refresh, develop
 **Requires at least:** 3.1
 **Tested up to:** 3.5.1
-**Stable tag:** 1.0.1
+**Stable tag:** 1.0.2
 **License:** GPLv2 or later
 
 Watching web project files for change, and refreshes their page automatically.
@@ -20,7 +20,7 @@ Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com
 3. On "Settings > Reloadr" page, set some options.
 
 ## Changelog ##
-### 1.0.1 ###
+### 1.0.2 ###
 * Revised readme.txt.
 
 ### 1.0.0 ###
