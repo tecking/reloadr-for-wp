@@ -1,14 +1,16 @@
 <?php
 /*
 Plugin Name: Reloadr for WordPress
-Version: 0.2.1
+Version: 1.0.1
 Description: This plugin is based on "Reloadr" which watches web project files for change, and refreshes their page automatically. This is good for client-side assets(e.g. *.css, *.js etc... ) and server-side assets(e.g. *.php). Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com/dbergey). Please see also the "Reloadr" site(https://github.com/dbergey/Reloadr).
 Author:tecking
 Author URI: http://www.tecking.org/
+Text Domain: reloadr-for-wp
+Domain Path: /languages
 License: GPLv2
 */
 
-/*  Copyright 2013 Tecking (email : tecking@tecking.org)
+/*  Copyright 2013-2014 Tecking (email : tecking@tecking.org)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
@@ -115,6 +117,7 @@ function rfw_uninstall_hook() {
  */
 add_action( 'admin_menu', 'rfw_admin_menu' );
 function rfw_admin_menu() {
+	load_plugin_textdomain( 'reloadr-for-wp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	add_options_page(
 		'Reloadr',
 		'Reloadr',
@@ -128,17 +131,18 @@ function rfw_settings() { ?>
 		<h2>Reloadr for WordPress</h2>
 		<form action="options.php" method="post">
 			<?php wp_nonce_field( 'update-options' ); ?>
-			<p>Separate values with commas.</p>
+			<p><?php _e( 'Separate values with commas.', 'reloadr-for-wp' ); ?></p>
 			<table class="form-table">
 				<tr>
-					<th>Client-side Assets</th>
-					<td><input type="text" name="rfw_client_assets" value="<?php echo esc_attr( get_option( 'rfw_client_assets' ) ); ?>"><br>
-						e.g. /your_css_directory/style.css (default: /style.css)</td>
+					<th><?php _e( 'Client-side assets', 'reloadr-for-wp' ); ?></th>
+					<td><input class="regular-text" type="text" name="rfw_client_assets" value="<?php echo esc_attr( get_option( 'rfw_client_assets' ) ); ?>"><br>
+						<?php _e( 'e.g. /your_css_directory/style.css (default: /style.css)', 'reloadr-for-wp' ); ?></td>
 				</tr>
 				<tr>
-					<th>Server-side Assets</th>
-					<td><input type="text" name="rfw_server_assets" value="<?php echo esc_attr( get_option( 'rfw_server_assets' ) ); ?>"><br>
-						Wildcard is available.<br />e.g. /your_includes_directory/*.php (default: /*.php)</td>
+					<th><?php _e( 'Server-side assets', 'reloadr-for-wp' ); ?></th>
+					<td><input class="regular-text" type="text" name="rfw_server_assets" value="<?php echo esc_attr( get_option( 'rfw_server_assets' ) ); ?>"><br>
+						<?php _e( 'Wildcard is available.', 'reloadr-for-wp' ); ?><br />
+						<?php _e( 'e.g. /your_includes_directory/*.php (default: /*.php)', 'reloadr-for-wp' ); ?></td>
 				</tr>
 			</table>
 			<input type="hidden" name="action" value="update">

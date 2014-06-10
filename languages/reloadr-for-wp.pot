@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: reloadr-for-wp\n"
+"Language: ja\n"
+
+#: 
+msgid "Separate values with commas."
+msgstr ""
+
+#: 
+msgid "Client-side assets"
+msgstr ""
+
+#: 
+msgid "e.g. /your_css_directory/style.css (default: /style.css)"
+msgstr ""
+
+#: 
+msgid "Server-side assets"
+msgstr ""
+
+#: 
+msgid "Wildcard is available."
+msgstr ""
+
+#: 
+msgid "e.g. /your_includes_directory/*.php (default: /*.php)"
+msgstr ""
+
