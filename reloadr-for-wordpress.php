@@ -1,7 +1,11 @@
 <?php
 /*
 Plugin Name: Reloadr for WordPress
+<<<<<<< HEAD
 Version: 1.0.1
+=======
+Version: 1.0.0
+>>>>>>> 3ed11d8d2f6f460bbc6e80c5d1f9efcc6b6b3d8e
 Description: This plugin is based on "Reloadr" which watches web project files for change, and refreshes their page automatically. This is good for client-side assets(e.g. *.css, *.js etc... ) and server-side assets(e.g. *.php). Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com/dbergey). Please see also the "Reloadr" site(https://github.com/dbergey/Reloadr).
 Author:tecking
 Author URI: http://www.tecking.org/

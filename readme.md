@@ -3,7 +3,11 @@
 **Tags:** reload, refresh, develop
 **Requires at least:** 3.1
 **Tested up to:** 3.5.1
+<<<<<<< HEAD
 **Stable tag:** 1.0.1
+=======
+**Stable tag:** 1.0.0
+>>>>>>> 3ed11d8d2f6f460bbc6e80c5d1f9efcc6b6b3d8e
 **License:** GPLv2 or later
 
 Watching web project files for change, and refreshes their page automatically.
@@ -15,6 +19,7 @@ Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com
 
 ## Installation ##
 1. Download plugin archive and expand.
+<<<<<<< HEAD
 2. Upload to your plugin's directory and activate the plugin.  
 (Note: For preventing unexpected issues, you should activate it under local environment only.)
 3. On "Settings > Reloadr" page, set some options.
@@ -23,6 +28,12 @@ Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com
 ### 1.0.1 ###
 * Revised readme.txt.
 
+=======
+2. Upload to your plugin's directory and activate the plugin.
+3. On "Settings > Reloadr" page, set some options.
+
+## Changelog ##
+>>>>>>> 3ed11d8d2f6f460bbc6e80c5d1f9efcc6b6b3d8e
 ### 1.0.0 ###
 * Internationalized.
 * Added CSS class to input[type=text] elements.

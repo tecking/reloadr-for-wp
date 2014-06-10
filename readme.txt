@@ -3,7 +3,11 @@ Contributors: tecking
 Tags: reload, refresh, develop
 Requires at least: 3.1
 Tested up to: 3.5.1
+<<<<<<< HEAD
 Stable tag: 1.0.1
+=======
+Stable tag: 1.0.0
+>>>>>>> 3ed11d8d2f6f460bbc6e80c5d1f9efcc6b6b3d8e
 License: GPLv2 or later
 
 Watching web project files for change, and refreshes their page automatically.
@@ -20,9 +24,12 @@ Thank you for awesome scripts "Reloadr" made by Daniel Bergey(https://github.com
 3. On "Settings > Reloadr" page, set some options.
 
 == Changelog ==
+<<<<<<< HEAD
 = 1.0.1 =
 * Revised readme.txt.
 
+=======
+>>>>>>> 3ed11d8d2f6f460bbc6e80c5d1f9efcc6b6b3d8e
 = 1.0.0 =
 * Internationalized.
 * Added CSS class to input[type=text] elements.
